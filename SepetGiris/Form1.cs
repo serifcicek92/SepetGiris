@@ -43,7 +43,7 @@ namespace SepetGiris
             {
                 bekleyen += 1;
                 lblBekleyen.Text = bekleyen.ToString();
-                if (textBox1.Text.Length==9 && textBox1.Text.ToUpper().Contains("S") && !textBox1.Text.Substring(3, 2).Equals(subeNo))
+                if (textBox1.Text.Length==9 && textBox1.Text.ToUpper().Contains("S") && !textBox1.Text.Substring(1, 2).Equals(subeNo))
                 {
                     textBox1.Clear();
                     textBox1.Focus();
